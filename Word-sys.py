@@ -81,6 +81,6 @@ if us_ny == 'y' or c == 'True':
                 sys.exit()
                 
 
-        
-        
-    
+        if line == 'call:math->int':
+            intm = sys.stdin.readline()
+            print(int(intm-'/n'))
