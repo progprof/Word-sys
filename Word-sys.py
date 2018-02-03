@@ -26,7 +26,6 @@ if us_ny == 'n':
         f.write(us_pswd)
         f.write(us_pswd_c)
         f.close()
-        print('Edit A file "Word-OS.txt" write in string1', us_name, ", string2",us_pswd_c)
         print('Done!')
         
 
@@ -83,4 +82,4 @@ if us_ny == 'y' or c == 'True':
 
         if line == 'call:math->int':
             intm = sys.stdin.readline()
-            print(int(intm-'/n'))
+            print(int(intm))
