@@ -21,7 +21,7 @@ if us_ny == 'n':
 
     if us_pswd_c == us_pswd:
         print('Create A Folder(Word-OS)')
-        f = open('C://Python36/Word-sys/Word-OS.txt', 'w')
+        f = open('Word-OS.txt', 'w')
         f.write(us_name)
         f.write(us_pswd)
         f.write(us_pswd_c)
