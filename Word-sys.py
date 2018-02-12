@@ -102,6 +102,7 @@ if us_ny == 'y' or c == 'True'  or us_ny == 'guest':
             allline()
         if line == 'prj::open':
 <<<<<<< HEAD
+<<<<<<< HEAD
             pn = input('Name?>')
             pn_wsp = pn + '.Wsp'
             po = open(pn_wsp)
@@ -157,6 +158,8 @@ if us_ny == 'y' or c == 'True'  or us_ny == 'guest':
                     
             
 =======
+=======
+>>>>>>> cc1770e005174ca578568f6ae96f93531050af40
             bp = input('Name?>')
             print('You Create A', bp,'.Wsp')
             bpw = bp + '.Wsp'
@@ -172,5 +175,8 @@ if us_ny == 'y' or c == 'True'  or us_ny == 'guest':
                 bpa.close()
             bpa.close()
                 
+<<<<<<< HEAD
+>>>>>>> cc1770e005174ca578568f6ae96f93531050af40
+=======
 >>>>>>> cc1770e005174ca578568f6ae96f93531050af40
             
