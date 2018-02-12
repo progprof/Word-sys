@@ -16,8 +16,12 @@ executables = [
     Executable('Word-sys.py')
 ]
 
-setup(name='hello',
+<<<<<<< HEAD
+setup(name='Word-sys',
+=======
+setup(name='Word-os',
+>>>>>>> cc1770e005174ca578568f6ae96f93531050af40
       version='0.1',
-      description='Simple Compiler',
+      description='Compiler For Work In Computer (Link In GitHub https://github.com/progprof/Word-sys)',
       executables=executables
       )
